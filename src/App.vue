@@ -4,7 +4,6 @@
     <h5>{{disc}}</h5>
     <router-view @formsubmit="transtxt(arguments)"></router-view>
     <router-view :transR="transR" name="transR"></router-view>
-    <!-- {{transR}} -->
   </div>
 </template>
 
