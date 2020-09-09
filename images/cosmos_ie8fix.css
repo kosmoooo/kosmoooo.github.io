@@ -1,0 +1,797 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.right_n .clearfix {
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.top_Bar.clearfix {
+    overflow: visible;
+}
+
+#class_Two {
+    background: url(cosmos_full_banner_w_line.jpg) no-repeat center top;
+}
+
+#shengzhangzhici_Box:after {
+    background: url(cosmos_shengzhang_shadow.png) no-repeat;
+}
+
+.out_Containter {
+    background: url(cosmos_full_banner.jpg) no-repeat center top;
+}
+
+.left_s {
+    background: #fdfdfe url(cosmos_banner.jpg) no-repeat 0px top;
+}
+
+.logo {
+    background: url(cosmos_logo.png) no-repeat;
+}
+
+body:before {
+    content: "";
+    width: 404px;
+    height: 589px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url(cosmos_daliju.png) no-repeat right -257px #fff;
+    z-index: 10;
+}
+
+.right_n:before {
+    content: "";
+    position: absolute;
+    height: 896px;
+    width: 35px;
+    background: url(cosmos_side_shadow_op.png) no-repeat;
+    display: block;
+    right: -35px;
+    top: -400px;
+    opacity: 0.5;
+    z-index: 9999;
+}
+
+#content_Height:before {
+    height: 896px;
+    width: 35px;
+    background: url(cosmos_side_shadow.png) no-repeat;
+    content: "";
+    position: absolute;
+    display: block;
+    left: -35px;
+    top: -400px;
+    z-index: 9999;
+    opacity: 0.5;
+}
+
+.button_Search_1 {
+    background: url(cosmos_search_icon.png) no-repeat center center #ff6200;
+}
+
+.search_Box:before {
+    background: #ff6200;
+}
+
+.air_Quality {
+    background: #fff url(cosmos_airq.png) no-repeat;
+}
+
+.main_Topic {
+    background: #fff url(cosmos_light_arr_bg.png) no-repeat;
+    background-position: 146px 22px;
+}
+
+.mod_Tabs_Default ul li a {
+    margin-right: 20px;
+}
+
+.mod_Tabs_Center ul li a {
+    padding-right: 55px;
+}
+
+.main_Topic:after {
+    background: #fff url(cosmos_arrow_or.png) no-repeat center center;
+}
+
+.controller_Up {
+    background: url(cosmos_arrowup.png) no-repeat center center;
+}
+
+.controller_Up:hover {
+    background: url(cosmos_arrowup_hover.png) no-repeat center center;
+}
+
+.controller_Up:active {
+    background: url(cosmos_arrowup_active.png) no-repeat center center;
+}
+
+.controller_Down {
+    background: url(cosmos_arrowdown.png) no-repeat center center;
+}
+
+.controller_Down:hover {
+    background: url(cosmos_arrowdown_hover.png) no-repeat center center;
+}
+
+.controller_Down:active {
+    background: url(cosmos_arrowdown_active.png) no-repeat center center;
+}
+
+.login_Btn {
+    background: #ff6200;
+}
+
+.login_Btn:hover {
+    background: #fe9553;
+}
+
+
+/* ie8 compatible */
+
+.mod_Tabs_Center ul li:last-child a {
+    padding-right: 0px;
+}
+
+.icon_Hj {
+    background: url(cosmos_hujibanli.png) no-repeat center center;
+}
+
+.icon_Yd {
+    background: url(cosmos_youdaifuxu.png) no-repeat center center;
+}
+
+.icon_Zf {
+    background: url(cosmos_zhufangbaozhang.png) no-repeat center center;
+}
+
+.icon_Wh {
+    background: url(cosmos_wenhuatiyu.png) no-repeat center center;
+}
+
+.icon_Zy {
+    background: url(cosmos_zhiyezige.png) no-repeat center center;
+}
+
+.icon_Jy {
+    background: url(cosmos_jiaoyukeyan.png) no-repeat center center;
+}
+
+.icon_Xz {
+    background: url(cosmos_xingzhengjiaofei.png) no-repeat center center;
+}
+
+.icon_Cj {
+    background: url(cosmos_chujingrujing.png) no-repeat center center;
+}
+
+.icon_Yl {
+    background: url(cosmos_yiliaoweisheng.png) no-repeat center center;
+}
+
+.icon_other {
+    background: url(cosmos_other.png) no-repeat center center;
+}
+
+.arrow_left_small {
+    background: url(cosmos_left_arrow.jpg) no-repeat;
+}
+
+.arrow_right_small {
+    background: url(cosmos_right_arrow.jpg) no-repeat;
+}
+
+.icon_Wechat {
+    background: url(cosmos_weichat.png) no-repeat;
+}
+
+.icon_Weibo {
+    background: url(cosmos_weibo.png) no-repeat;
+}
+
+.icon_Mail {
+    background: url(cosmos_mail.png) no-repeat;
+}
+
+.icon_Disa {
+    background: url(cosmos_disable.png) no-repeat;
+}
+
+.icon_App {
+    background: url(cosmos_APP.png) no-repeat;
+}
+
+.icon_en {
+    background: url(cosmos_glob.png) no-repeat;
+}
+
+.icon_site {
+    background: url(cosmos_site.png) no-repeat;
+}
+
+.section_Title span:after {
+    background: url(cosmos_zhengwu.png) no-repeat;
+}
+
+.spc_box {
+    background: #ff8c46 url(cosmos_zcbg.png) no-repeat;
+}
+
+.xinxigongkai_Bg {
+    background: url(cosmos_gongkai_1.png) no-repeat;
+}
+
+.qingdanmulu_Bg {
+    background: url(cosmos_gongkai_2.png) no-repeat;
+}
+
+.zhengfugongbao_Bg {
+    background: url(cosmos_gongkai_3.png) no-repeat;
+}
+
+.ziyuanjiaoyi_Bg {
+    background: url(cosmos_gongkai_4.png) no-repeat;
+}
+
+.xinxigongkai_Bg,
+.qingdanmulu_Bg,
+.zhengfugongbao_Bg,
+.ziyuanjiaoyi_Bg {
+    background-position: left top;
+}
+
+.topic_List li {
+    background: url(cosmos_zczt_bg.png) no-repeat;
+    background-position: right top;
+}
+
+.topic_List li a {
+    background: url(cosmos_zczt_tit.png) no-repeat;
+    background-position: 15px 16px;
+}
+
+.topic_List li.link_hover a {
+    background: url(cosmos_zczt_tito.png) no-repeat;
+    background-size: 35px 73px;
+    background-position: 15px 16px;
+}
+
+span.hudong:after {
+    background: url(cosmos_hudong.png) no-repeat;
+}
+
+.ducha_Link.link_hover {
+    background: url(cosmos_duchabg_hover.png) no-repeat;
+}
+
+
+/* 我要找政策 */
+
+.find_Policy_New {
+    background: url(cosmos_find_policy@2x.png) no-repeat right top;
+}
+
+.huimin_Tit {
+    background: url(cosmos_huiminsm.png) no-repeat;
+}
+
+.liqi_Tit {
+    background: url(cosmos_liqism.png) no-repeat;
+}
+
+.gaoxiao_Tit {
+    background: url(cosmos_gaoxiaosm.png) no-repeat;
+}
+
+.effect_Box {
+    background: url(cosmos_effectbg.png) no-repeat left top;
+}
+
+.ducha_Link {
+    background: url(cosmos_duchabg.png) no-repeat;
+}
+
+.shengzhang_Link a:before {
+    background: url(cosmos_shengzhangicon.png) no-repeat;
+}
+
+.jubao_Link a:before {
+    background: url(cosmos_jubaoicon.png) no-repeat;
+}
+
+.xinfang_Link a:before {
+    background: url(cosmos_xinfangicon.png) no-repeat;
+}
+
+.logo_bottom {
+    background: url(cosmos_nav_logo.png) no-repeat 0px 0px;
+}
+
+.back_Top {
+    background: url(cosmos_top.png) no-repeat;
+}
+
+.link_W_Sub>a:after {
+    background: url(cosmos_downarrowo.png) no-repeat;
+}
+
+.left_title_mod {
+    background: #fe9553 url(cosmos_collspa.png) no-repeat center center;
+}
+
+.large_ducha {
+    background: url(cosmos_large_ducha_bg.png) no-repeat;
+}
+
+.b_Arrow_left {
+    background: url(cosmos_blue_arrow_left.png) no-repeat;
+}
+
+.b_Arrow_right {
+    background: url(cosmos_blue_arrow_right.png) no-repeat;
+}
+
+.geren_Icon {
+    background-image: url(cosmos_geren.png);
+}
+
+.faren_Icon {
+    background-image: url(cosmos_faren.png);
+}
+
+.qijian_Icon {
+    background-image: url(cosmos_qijian.png);
+}
+
+.unslider-arrow.prev {
+    background: #ffa873 url(cosmos_arrow_L.png) no-repeat;
+    background-position: center 9px;
+}
+
+.unslider-arrow.next {
+    background: #ffa873 url(cosmos_arrow_R.png) no-repeat;
+    background-position: center 9px;
+}
+
+.silde-disp-1 {
+    background: url(cosmos_title_shadow.png) no-repeat;
+    background-position: center 10px;
+}
+
+.search_Box_Top .button_Search_1 {
+    background: url(cosmos_search_icon_blue.png) no-repeat center center;
+}
+
+.shengzhang_Title {
+    background: url(cosmos_shengzhang_bg.png) no-repeat center;
+}
+
+.close_shengzhang:before {
+    background: url(cosmos_close.png) no-repeat;
+}
+
+.close_shengzhang:hover:before {
+    background: url(cosmos_close_hover.png) no-repeat;
+}
+
+
+/*
+***************** 
+收起
+*****************
+ */
+
+.close_ready {
+    background: url(cosmos_site_close.png) no-repeat;
+}
+
+.linlin {
+    background: url(cosmos_linlin.png) no-repeat;
+}
+
+.topic_box ul li a {
+    background: url(cosmos_topic_d_bg.png) no-repeat;
+}
+
+.topic_box ul li a:hover {
+    background: url(cosmos_topic_bg.png) no-repeat;
+}
+
+.shengzhang {
+    background: url(cosmos_s.png) no-repeat;
+}
+
+.shuju {
+    background: url(cosmos_s.png) no-repeat;
+}
+
+.zhengwu {
+    background: url(cosmos_z.png) no-repeat;
+}
+
+.hudongx {
+    background: url(cosmos_h.png) no-repeat;
+}
+
+.f2_Tit h2:before {
+    background: url(cosmos_class_Tow_Tit_arrow.png) no-repeat;
+}
+
+.scope_icon {
+    background: url(cosmos_search_icon.png) no-repeat center center;
+}
+
+.close_Search_bar {
+    background: url(cosmos_close_W.png) no-repeat center center;
+}
+
+.links_list_mod ul li a:hover {
+    background: url(cosmos_gongkaibgA.png) no-repeat;
+}
+
+.mulu:before {
+    background-image: url(cosmos_mulu.png);
+}
+
+.zhinan:before {
+    background-image: url(cosmos_zhinan.png);
+}
+
+.yiju:before {
+    background-image: url(cosmos_yiju.png);
+}
+
+.baogao:before {
+    background-image: url(cosmos_baogao.png);
+}
+
+.kaohe:before {
+    background-image: url(cosmos_kaohe.png);
+}
+
+.shenqing:before {
+    background-image: url(cosmos_shenqing.png);
+}
+
+.mulu:hover:before {
+    background-image: url(cosmos_muluo.png);
+}
+
+.zhinan:hover:before {
+    background-image: url(cosmos_zhinano.png);
+}
+
+.yiju:hover:before {
+    background-image: url(cosmos_yijuo.png);
+}
+
+.baogao:hover:before {
+    background-image: url(cosmos_baogaoo.png);
+}
+
+.kaohe:hover:before {
+    background-image: url(cosmos_kaoheo.png);
+}
+
+.shenqing:hover:before {
+    background-image: url(cosmos_shenqingo.png);
+}
+
+.section2 .left_title_mod {
+    background: #fe9553 url(cosmos_zhengce_bg_big.png) no-repeat -53px -72px;
+}
+
+#class_Two .shengzhang_Pic .silde-disp-1 h2:after {
+    background: url(cosmos_big_shadow.png) no-repeat;
+}
+
+.shengzhang_info_list li a div {
+    background: url(cosmos_xiebox.png) no-repeat;
+}
+
+.shengzhang_info_list li a:after {
+    background: url(cosmos_arrow_right_sm@2x.png) no-repeat;
+    background-size: 8px 12px;
+}
+
+.shengzhang_info_list li a:hover:after {
+    background: url(cosmos_arrow_right_smo@2x.png) no-repeat;
+}
+
+.jianli:before {
+    background: url(cosmos_jianli.png) no-repeat;
+}
+
+.fengong:before {
+    background: url(cosmos_fengong.png) no-repeat;
+}
+
+.gongzuo:before {
+    background: url(cosmos_gongzuo.png) no-repeat;
+}
+
+.tupian:before {
+    background: url(cosmos_tupian.png) no-repeat;
+}
+
+.shipin:before {
+    background: url(cosmos_shipin.png) no-repeat;
+}
+
+.xinxiang:before {
+    background: url(cosmos_xinxiang.png) no-repeat;
+}
+
+.jianli:hover:before {
+    background: url(cosmos_jianliw.png) no-repeat;
+}
+
+.fengong:hover:before {
+    background: url(cosmos_fengongw.png) no-repeat;
+}
+
+.gongzuo:hover:before {
+    background: url(cosmos_gongzuow.png) no-repeat;
+}
+
+.tupian:hover:before {
+    background: url(cosmos_tupianw.png) no-repeat;
+}
+
+.shipin:hover:before {
+    background: url(cosmos_shipinw.png) no-repeat;
+}
+
+.xinxiang:hover:before {
+    background: url(cosmos_xinxiangw.png) no-repeat;
+}
+
+#agency1:before,
+#agency2:before {
+    background: url(cosmos_ue.png) no-repeat;
+}
+
+#agency3:before,
+#agency4:before,
+#agency5:before {
+    background: url(cosmos_shita.png) no-repeat;
+}
+
+.block_List_Box li a:hover {
+    background: url(cosmos_gongkaibgA.png) no-repeat;
+}
+
+.block_List_Box li a:hover:before {
+    background: url(cosmos_top_conner.png) no-repeat;
+}
+
+.showcase-arrow-previous {
+    background: url(cosmos_half_cricle_arrow_left.png) no-repeat;
+}
+
+.showcase-arrow-previous:hover {
+    background: url(cosmos_half_cricle_arrow_left_active.png) no-repeat;
+}
+
+.showcase-arrow-next {
+    background: url(cosmos_half_cricle_arrow_right.png) no-repeat;
+}
+
+.showcase-arrow-next:hover {
+    background: url(cosmos_half_cricle_arrow_right_active.png) no-repeat;
+}
+
+.jcarousel-control-prev {
+    background: transparent url(cosmos_half_cricle_arrow_up.png) no-repeat 0 0;
+}
+
+.jcarousel-control-next {
+    background: transparent url(cosmos_half_cricle_arrow_down.png) no-repeat 0 0;
+}
+
+.side_Collapse .img-a-size-box {}
+
+.pic_list_mod li.link_hover a.img-a-size-box:after {
+    background: url(cosmos_top_conner.png) no-repeat;
+}
+
+.leader_List_Pic dl dd.link_hover a.img-a-size-box:after {
+    background: url(cosmos_top_conner.png) no-repeat;
+}
+
+.shengzhang_Sidebar {
+    background: #fff;
+}
+
+.shengzhang_info_list li a:after {
+    background: url(cosmos_arrow_right_sm.png) no-repeat;
+}
+
+.shengzhang_info_list li a:hover:after {
+    background: url(cosmos_arrow_right_smo.png) no-repeat;
+}
+
+.block_A_thumb:hover {
+    background: url(cosmos_gongkaibgA.png) no-repeat;
+}
+
+.block_A_thumb:hover:before {
+    background: url(cosmos_top_conner.png) no-repeat;
+}
+
+.btn_group_3 a:after {
+    background: url(cosmos_btn_arrow.png) no-repeat;
+}
+
+.btn_group_3 a:hover:after {
+    background: url(cosmos_btn_arrowo.png) no-repeat;
+}
+
+.fazhanguihua {
+    background: url(cosmos_qushio.png) no-repeat center 14px;
+}
+
+.tongjigongbao {
+    background: url(cosmos_tongjio.png) no-repeat center 14px;
+}
+
+.shengzhengfuzhi {
+    background: url(cosmos_zhio.png) no-repeat center 14px;
+}
+
+.fazhanguihua:hover {
+    background: url(cosmos_qushiw.png) no-repeat center 14px #ff6200;
+}
+
+.tongjigongbao:hover {
+    background: url(cosmos_tongjiw.png) no-repeat center 14px #ff6200;
+}
+
+.shengzhengfuzhi:hover {
+    background: url(cosmos_zhiw.png) no-repeat center 14px #ff6200;
+}
+
+.jingjijianshe {
+    background: url(cosmos_jingjijianshebg.png) no-repeat;
+}
+
+.duiwaijiaoliu {
+    background: url(cosmos_duiwai.png) no-repeat;
+}
+
+.fazhanbaogao {
+    background: url(cosmos_fazhan.png) no-repeat;
+}
+
+.touzicujin {
+    background: url(cosmos_touzi.png) no-repeat;
+}
+
+.changyou {
+    background: url(cosmos_changyou.png) no-repeat;
+}
+
+.shengtai {
+    background: url(cosmos_shengtai.png) no-repeat;
+}
+
+.mingsu {
+    background: url(cosmos_minsu.png) no-repeat;
+}
+
+.shengqing {
+    background: url(cosmos_s.png) no-repeat;
+}
+
+.zhi_list ul li a:before {
+    background: url(cosmos_origami.png) no-repeat;
+}
+
+.zhi_list ul li a:hover:before {
+    background: url(cosmos_origami_hover.png) no-repeat;
+}
+
+.huimintab a {
+    background: url(cosmos_huimin.png) no-repeat center center;
+}
+
+.liqitab a {
+    background: url(cosmos_qiye.png) no-repeat center center;
+}
+
+.gaoxiaotab a {
+    background: url(cosmos_gaoxiao.png) no-repeat center center;
+}
+
+.huimintab a:hover {
+    background: url(cosmos_huimino.png) no-repeat center center;
+}
+
+.liqitab a:hover {
+    background: url(cosmos_qiyeo.png) no-repeat center center;
+}
+
+.gaoxiaotab a:hover {
+    background: url(cosmos_gaoxiaoo.png) no-repeat center center;
+}
+
+.huimintab.active a {
+    background: url(cosmos_gereno.png) no-repeat center center;
+}
+
+.liqitab.active a {
+    background: url(cosmos_qiyeo.png) no-repeat center center;
+}
+
+.gaoxiaotab.active a {
+    background: url(cosmos_gaoxiaoo.png) no-repeat center center;
+}
+
+#map1:hover {
+    background: url(cosmos_map1.png) no-repeat;
+}
+
+#map2:hover {
+    background: url(cosmos_map2.png) no-repeat;
+}
+
+#map3:hover {
+    background: url(cosmos_map3.png) no-repeat;
+}
+
+#map4:hover {
+    background: url(cosmos_map4.png) no-repeat;
+}
+
+#map5:hover {
+    background: url(cosmos_map5.png) no-repeat;
+}
+
+#map6:hover {
+    background: url(cosmos_map6.png) no-repeat;
+}
+
+#map7:hover {
+    background: url(cosmos_map7.png) no-repeat;
+}
+
+#map8:hover {
+    background: url(cosmos_map8.png) no-repeat;
+}
+
+#map9:hover {
+    background: url(cosmos_map9.png) no-repeat;
+}
+
+.icon_p {
+    background: #6e7b9c url(cosmos_printer.png) no-repeat center center;
+}
+
+.icon_fp {
+    background: #6e7b9c url(cosmos_font_plus.png) no-repeat center center;
+}
+
+.icon_fm {
+    background: #6e7b9c url(cosmos_font_mins.png) no-repeat center center;
+}
+
+.icon_s {
+    background: #6e7b9c url(cosmos_share.png) no-repeat center center;
+}
+
+.icon_back_top {
+    background: #6e7b9c url(cosmos_back_top.png) no-repeat center center;
+}
+
+.wugongmiji_box div:before {
+    background: url(cosmos_book.png) no-repeat;
+}
+
+@media screen and (max-width: 1280px) {
+    .nav_con ul li a {
+        padding: 0 21px;
+    }
+}
