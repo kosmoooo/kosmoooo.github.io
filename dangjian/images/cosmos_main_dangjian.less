@@ -66,8 +66,22 @@ div:focus{
 .twoClom .tabcontent2{ width:auto; }
 .twoClom .tabcontent2 > div{ width:@twoColmWidth; }
 .titleModsigl {background: url(repeat45line.png) no-repeat bottom; margin-bottom:@gapTitle;}
-.titleModsigl a.more{ font-size: 14px; padding-top: 3px; color: @lightTxt; }
+.titleModsigl a.more{ font-size: 14px; padding-top: 3px; color: @lightTxt; 
+    display: block; 
+    overflow: hidden; 
+    width: 50px;
+    white-space:nowrap;
+    text-align: right;
+
+ }
+.titleModsigl a.more span{ 
+    
+     display:block; 
+     width: 100px;
+      margin-left: -55px;
+     }
 .titleModsigl a.more:hover{ color: @secondColor; }
+.titleModsigl a.more:hover:before{ transition: ; }
 .titleModsigl h3{padding: 0 10px;padding-bottom: 8px; display: inline-block; color: @secondColor; font-weight: 900; border-bottom: 4px solid @secondColor;   }
 .titleModsigl h3:before{ content: ""; display: inline-block; background: url(pictag.png) no-repeat; width: 26px; height: 26px; vertical-align: middle; margin-right: 21px; }
 .titleModsigl ul li{ float: left; }
@@ -125,6 +139,25 @@ ul{ width: 10000em; height: 100%; position: relative; li{ width: 570px; img:hove
          height: 42px; vertical-align: middle; margin-left: 15px;}
         a{ color: @highContrastTxtColor; font-size: @midSize; vertical-align: middle; padding-top: 12px; margin-right: 15px; }
     img{ display: inline-block; vertical-align: middle; margin-left: 15px;}
+}
+
+.titleModsigl a.more,
+.titleModsiglRed a.more,
+.titleModsiglStar a.more,.titlelong a.more{
+    display: block;
+    overflow: hidden;
+    width: 50px;
+    white-space: nowrap;
+    text-align: right;
+
+}
+.titleModsigl a.more span,
+.titleModsiglRed a.more span,
+.titleModsiglStar a.more span,.titlelong a.more span{
+    display: block;
+    width: 100px;
+    margin-left: -55px;
+
 }
 .title_w_mutilpul_tabs{ height: 48px;background:#f2f2f2;margin-bottom: 10px; .borderbottom();
 h3{ width: 147px; background: url(dangjian_titlepartshort_20200903.png) no-repeat;

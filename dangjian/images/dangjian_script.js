@@ -212,3 +212,11 @@ $(".select_wap select").change(function() {
 $(".search_icon").click(function() {
     $(".search_hidden_box").toggle();
 })
+
+$("a.more").hover(function() {
+    $(this).children("span").stop().animate({ "margin-left": "0px" }, "easeInOutCubic")
+
+}, function() {
+    $(this).children("span").stop().animate({ "margin-left": "-55px" }, "easeInOutCubic")
+
+})
