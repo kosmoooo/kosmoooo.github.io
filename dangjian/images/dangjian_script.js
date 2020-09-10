@@ -19,6 +19,8 @@ function ShowCountDown() {
 }
 window.ShowCountDown();
 $(document).ready(function() {
+
+
     $(".navgiator> ul > li").hover(function() {
         $(".subnav").hide();
         $(this).find(".subnav").show();
@@ -194,3 +196,19 @@ function preview(oper) {
         location.reload()
     }
 }
+
+$(".select_wap .select-value").each(function() {
+
+    if ($(this).next("select").find("option:selected").length != 0) {
+        $(this).text($(this).next("select").find("option:selected").text());
+
+    }
+});
+$(".select_wap select").change(function() {
+    var value = $(this).find("option:selected").text();
+    $(this).parent(".select_wap").find(".select-value").text(value);
+});
+
+$(".search_icon").click(function() {
+    $(".search_hidden_box").toggle();
+})

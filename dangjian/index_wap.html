@@ -32,13 +32,14 @@
 
 </head>
 
-<body class="wap">
+<body class="wap" ontouchstart="">
 
     <div class="out_Containter_Dangjian">
         <div id="page_Wrap_Dangjian">
             <header class="header">
                 <div class="headerWrap">
                     <a href="javascript:;" class="logo fLeft"></a>
+                    <a href="javascript:;" class="search_icon"></a>
                     <div class="functionbox clearfix">
                         <div class="datewweather fLeft">
                             <div class="datebox"><span class="fLeft" id="year"></span><i id="date"></i></div>
@@ -71,6 +72,18 @@
                     </ul>
                 </div>
             </header>
+            <section class="search_hidden_box">
+                <form action="" method="">
+                    <div class="select_wap">
+                        <span class="select-value"></span>
+                        <select>
+                    <option value="0">站内</option>
+                    <option value="1">互联网</option>
+                    </select>
+                    </div>
+                    <input type="search" placeholder="请输入搜索关键字">
+                </form>
+            </section>
             <!-- 内容 -->
             <div class="contentBox">
                 <div class="contentBoxinner">
