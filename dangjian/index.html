@@ -28,18 +28,19 @@
     <![endif]-->
     <script>
         $.ajax({
-            url: 'https://devapi.heweather.net/v7/weather/now?location=101060101&lang=zh-hans&key=70754e11faaf4e16a5e5960c4a6a8f9d',
-            //url: 'https://devapi.heweather.net/v7/weather/24h?location=101060101&lang=zh-hans&key=d55f5625bc6b4b10b2ae38c482084534',
+            url: 'https://devapi.heweather.net/v7/weather/3d?location=101060101&lang=zh-hans&key=70754e11faaf4e16a5e5960c4a6a8f9d',
+            //url: 'https://devapi.heweather.net/v7/weather/now?location=101060101&lang=zh-hans&key=d55f5625bc6b4b10b2ae38c482084534',
             type: "get",
             dataType: "json",
             success: function(data) {
                 console.log(data);
-                //console.log(data.now.temp);
-                $(".weather_text").text(data.now.text)
-                $(".weather_temp").text(data.now.temp + "℃")
-                    //  $(".weather_temp").text(daily.tempMax + "℃" + "~" + daily.tempMin + "℃")
+                //console.log(data.daily.length);
+
+                $(".weather_text").text(data.daily[0].textDay)
+                    // $(".weather_temp").text(data.now.temp + "℃")
+                $(".weather_temp").text(data.daily[0].tempMax + "℃" + "~" + data.daily[0].tempMin + "℃")
                     // daily.tempMax
-                $(".weather_icon").html("<img src='images/dangjian_" + data.now.icon + ".png'>")
+                $(".weather_icon").html("<img src='images/dangjian_" + data.daily[0].iconDay + ".png'>")
             }
         })
     </script>
