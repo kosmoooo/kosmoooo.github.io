@@ -42,41 +42,6 @@
                 $(".weather_icon").html("<img src='images/dangjian_" + data.now.icon + ".png'>")
             }
         })
-
-        // $.ajax({
-        //     url: 'https://openapi.jilinxiangyun.com:2443/esb2kqzl/getCityAqi',
-        //     type: "get",
-        //     headers: {
-        //         'Authorization': 'YXBwX2tleT0zZDk5MmQz'
-        //     },
-        //     dataType: "json",
-        //     success: function(data) {
-        //         console.log(data)
-        //         for (var i = 0; i < data.data.length; i++) {
-        //             var pm25 = data.data[i].pm2_5
-        //             if (pm25 == null) {
-        //                 pm25 = '—'
-        //             }
-        //             var txt00 = data.data[i].quality;
-
-        //             if (txt00 == "优") {
-        //                 txt00 = '<span class="greentxt">' + data.data[i].quality + '</span>'
-        //             } else if (txt00 == "良") {
-        //                 txt00 = '<span class="yellowtxt">' + data.data[i].quality + '</span>'
-        //             } else if (txt00 == "轻度污染") {
-        //                 txt00 = '<span class="orangetxt">' + data.data[i].quality + '</span>'
-        //             } else if (txt00 == "重度污染") {
-        //                 txt00 = '<span class="redtxt">' + data.data[i].quality + '</span>'
-        //             }
-        //             if (data.data[i].area == '长春') {
-        //                 $('.changchun').append('<li>' + data.data[i].area + '</li><li class="numnum"><span>' + data.data[i].co + '</span></li><li class="numnum"><span>' + data.data[i].no2 + '</span></li><li class="numnum"><span>' + data.data[i].o3 + '</span></li><li class="numnum"><span>' + data.data[i].pm10 + '</span></li><li class="numnum"><span>' + pm25 + '</span></li><li class="numnum"><span>' + data.data[i].so2 + '</span></li><li class="numnum"><span>' + data.data[i].aqi + '</span></li><li class="long_Txt_Box"><span>' + data.data[i].primaryPollutant + '</span></li><li class="airQtxt">' + txt00 + '</li>')
-        //             } else {
-        //                 $('.hidden_city').append(' <ul class="table_header clearfix"><li>' + data.data[i].area + '</li><li class="numnum"><span>' + data.data[i].co + '</span></li><li class="numnum"><span>' + data.data[i].no2 + '</span></li><li class="numnum"><span>' + data.data[i].o3 + '</span></li><li class="numnum"><span>' + data.data[i].pm10 + '</span></li><li class="numnum"><span>' + pm25 + '</span></li><li class="numnum"><span>' + data.data[i].so2 + '</span></li><li class="numnum"><span>' + data.data[i].aqi + '</span></li><li class="long_Txt_Box"><span>' + data.data[i].primaryPollutant + '</span></li><li class="airQtxt">' + txt00 + '</li></ul>')
-        //             }
-
-        //         }
-        //     }
-        // })
     </script>
 
 </head>
