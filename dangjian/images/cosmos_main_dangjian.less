@@ -27,14 +27,7 @@
 .borderbottom{ border-bottom: 1px solid #dcdcdc; }
 .bordertop{ border-top: 1px solid #dcdcdc; }
 .borderbottomdash{ border-bottom: 1px dashed #dcdcdc; }
-body{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
-a:focus,
-input:focus,
-p:focus,
-div:focus{
--webkit-tap-highlight-color:rgba(0,0,0,0);
--webkit-user-modify:read-write-plaintext-only; 
-}
+
 .header {
   
   
@@ -600,11 +593,16 @@ li.active a{ color: @secondColor;font-weight: 900;}}
         p.datetime{color: @lightTxt; margin-top: @gap - 10;}
     }}}
 
-
+    body.wap{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
     //手机
     .wap{
 //start
 
+a:focus,
+input:focus{
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+-webkit-user-modify:read-write-plaintext-only; 
+}
 .logo{ width: 216px; height:45px; background-size: cover;
     margin-top: 20px;
     margin-left: 20px; }
